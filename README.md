@@ -1,22 +1,30 @@
 # Hono OpenAPI Template
 
-Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI, providing a robust foundation for building scalable APIs with modern TypeScript tooling and developer-friendly features.
+Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI.
 
 <div align="left">
+  <!-- Core Language/Runtime -->
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <!-- Framework/Server -->
   <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" alt="Hono" />
+  <!-- Platform/Infrastructure -->
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
   <img src="https://img.shields.io/badge/Cloudflare_D1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare D1" />
+  <!-- Database/ORM -->
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Drizzle-22D3EE?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle ORM" />
+  <!-- API/Schema -->
   <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapi-initiative&logoColor=white" alt="OpenAPI" />
   <img src="https://img.shields.io/badge/Zod-7C3AED?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
-  <img src="https://img.shields.io/badge/Drizzle-22D3EE?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle ORM" />
+  <!-- Documentation/UI -->
   <img src="https://img.shields.io/badge/Scalar_UI-F97316?style=for-the-badge&logoColor=white" alt="Scalar UI" />
+  <!-- Logging -->
   <img src="https://img.shields.io/badge/Pino-EC4899?style=for-the-badge&logoColor=white" alt="Pino" />
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Husky-111827?style=for-the-badge&logoColor=white" alt="Husky" />
+  <!-- Development Tools -->
   <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
   <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier" />
   <img src="https://img.shields.io/badge/Knip-10B981?style=for-the-badge&logoColor=white" alt="Knip" />
+  <img src="https://img.shields.io/badge/Husky-111827?style=for-the-badge&logoColor=white" alt="Husky" />
 </div>
 
 ## Features
@@ -247,7 +255,8 @@ This command will build and deploy your application to Cloudflare Workers with o
 ## Screenshots
 
 <p align="center">
-  <img src="./screenshot.png" alt="Hono OpenAPI Template" />
+  <img src="./screenshot_1.png" alt="API Overview" width="100%" />
+  <img src="./screenshot_2.png" alt="Database Studio" width="100%" />
 </p>
 
 ## Contributing

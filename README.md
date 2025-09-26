@@ -1,13 +1,23 @@
 # Hono OpenAPI Template
 
-Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI, providing a robust foundation for building scalable APIs with modern TypeScript tooling and developer-friendly features.
-
-<div>
+<div align="left">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" alt="Hono" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Cloudflare_D1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare D1" />
   <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapi-initiative&logoColor=white" alt="OpenAPI" />
+  <img src="https://img.shields.io/badge/Zod-7C3AED?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
+  <img src="https://img.shields.io/badge/Drizzle-22D3EE?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle ORM" />
+  <img src="https://img.shields.io/badge/Scalar_UI-F97316?style=for-the-badge&logoColor=white" alt="Scalar UI" />
+  <img src="https://img.shields.io/badge/Pino-EC4899?style=for-the-badge&logoColor=white" alt="Pino" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Husky-111827?style=for-the-badge&logoColor=white" alt="Husky" />
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier" />
+  <img src="https://img.shields.io/badge/Knip-10B981?style=for-the-badge&logoColor=white" alt="Knip" />
 </div>
+
+Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI, providing a robust foundation for building scalable APIs with modern TypeScript tooling and developer-friendly features.
 
 ## Features
 

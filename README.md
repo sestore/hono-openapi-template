@@ -229,7 +229,7 @@ This command will build and deploy your application to Cloudflare Workers with o
 
 ## Contributing
 
-Contributions via PRs are welcome.
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ## License
 

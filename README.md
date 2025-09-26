@@ -1,8 +1,13 @@
 # Hono OpenAPI Template
 
-![Hono OpenAPI Template](./screenshot.png)
+Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI, providing a robust foundation for building scalable APIs with modern TypeScript tooling and developer-friendly features.
 
-Type-safe and production-ready Cloudflare Workers boilerplate with Hono framework, Zod validation, Drizzle ORM, D1 database, and OpenAPI docs.
+<div>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" alt="Hono" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapi-initiative&logoColor=white" alt="OpenAPI" />
+</div>
 
 ## Features
 
@@ -10,7 +15,7 @@ Type-safe and production-ready Cloudflare Workers boilerplate with Hono framewor
 - **Type Safety**: Full TypeScript support with Zod schema validation
 - **API Documentation**: Auto-generated OpenAPI specs & Scalar UI
 - **Database**: Drizzle ORM & Cloudflare D1 integration
-- **Developer Experience**: Hot reload, linting, formatting, and git hooks
+- **Developer Experience**: Linting, formatting, and git hooks
 
 ## Table of Contents
 
@@ -21,8 +26,8 @@ Type-safe and production-ready Cloudflare Workers boilerplate with Hono framewor
 - [Development](#development)
 - [Deployment](#deployment)
 - [Available Scripts](#available-scripts)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Tech Stack
@@ -228,6 +233,12 @@ This command will build and deploy your application to Cloudflare Workers with o
 | `pnpm run db:migrate:prod` | Apply migrations to production database |
 | `pnpm run db:studio`       | Open Drizzle Studio for remote database |
 | `pnpm run db:inspect:prod` | Inspect production database schema      |
+
+## Screenshots
+
+<p align="center">
+  <img src="./screenshot.png" alt="Hono OpenAPI Template" />
+</p>
 
 ## Contributing
 

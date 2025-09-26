@@ -1,5 +1,3 @@
-# Hono OpenAPI Template
-
 <div align="left">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" alt="Hono" />
@@ -16,6 +14,8 @@
   <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier" />
   <img src="https://img.shields.io/badge/Knip-10B981?style=for-the-badge&logoColor=white" alt="Knip" />
 </div>
+
+# Hono OpenAPI Template
 
 Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI, providing a robust foundation for building scalable APIs with modern TypeScript tooling and developer-friendly features.
 

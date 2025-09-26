@@ -42,9 +42,9 @@ Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizz
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Development](#development)
-- [Deployment](#deployment)
 - [Available Scripts](#available-scripts)
 - [Screenshots](#screenshots)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -187,28 +187,6 @@ NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
 npx lint-staged
 ```
 
-## Deployment
-
-### Production Environment Setup
-
-Before deploying, configure your production environment variables:
-
-```bash
-npx wrangler secret put NODE_ENV
-npx wrangler secret put JWT_SECRET
-npx wrangler secret put LOG_LEVEL
-npx wrangler secret put CLOUDFLARE_ACCOUNT_ID
-npx wrangler secret put CLOUDFLARE_D1_TOKEN
-```
-
-### Deploy to Production
-
-```bash
-pnpm run deploy
-```
-
-This command will build and deploy your application to Cloudflare Workers with optimizations enabled.
-
 ## Available Scripts
 
 ### Development Commands
@@ -258,6 +236,28 @@ This command will build and deploy your application to Cloudflare Workers with o
   <img src="./screenshot_1.png" alt="API Overview" width="100%" />
   <img src="./screenshot_2.png" alt="Database Studio" width="100%" />
 </p>
+
+## Deployment
+
+### Production Environment Setup
+
+Before deploying, configure your production environment variables:
+
+```bash
+npx wrangler secret put NODE_ENV
+npx wrangler secret put JWT_SECRET
+npx wrangler secret put LOG_LEVEL
+npx wrangler secret put CLOUDFLARE_ACCOUNT_ID
+npx wrangler secret put CLOUDFLARE_D1_TOKEN
+```
+
+### Deploy to Production
+
+```bash
+pnpm run deploy
+```
+
+This command will build and deploy your application to Cloudflare Workers with optimizations enabled.
 
 ## Contributing
 

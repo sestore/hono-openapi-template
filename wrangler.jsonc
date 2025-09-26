@@ -1,0 +1,17 @@
+{
+  "name": "hono-openapi-template",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": "src/app.ts",
+  "workers_dev": true,
+  "compatibility_date": "2025-09-15",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "migrations_dir": "./src/db/migrations",
+      "database_name": "demo",
+      "database_id": "8883f49a-44f7-423f-8e0f-5e3e7db8daaf",
+    },
+  ],
+}

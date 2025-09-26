@@ -1,0 +1,75 @@
+{
+  "name": "hono-openapi-template",
+  "version": "1.0.0",
+  "description": "Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI.",
+  "type": "module",
+  "scripts": {
+    "/1": "-------------------------------------------------------------------->",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "/2": "-------------------------------------------------------------------->",
+    "dev": "wrangler dev",
+    "lint": "eslint . --ext .ts,.js,.mjs",
+    "lint:fix": "eslint . --ext .ts,.js,.mjs --fix",
+    "format": "prettier --write . --ignore-path .gitignore --ignore-path .prettierignore",
+    "format:check": "prettier --check . --ignore-path .gitignore --ignore-path .prettierignore",
+    "knip": "knip",
+    "prepare": "husky",
+    "/3": "-------------------------------------------------------------------->",
+    "db:generate:local": "drizzle-kit generate",
+    "db:migrate:local": "wrangler d1 migrations apply demo --local",
+    "db:inspect:local": "wrangler d1 execute demo --local --command=\"SELECT name FROM sqlite_master WHERE type='table';\"",
+    "db:seed:local": "wrangler d1 execute demo --local --command=\"INSERT INTO records (text) VALUES ('My first record'); INSERT INTO users (name, phone_number, password_hash) VALUES ('Mohammed', '1234567890', 'x3Xnt1ft5jDNCqERO9ECZhqziCnKUqZCKreChi8mhkY=');\"",
+    "db:dump:local": "wrangler d1 execute demo --local --command=\"SELECT * FROM users; SELECT * FROM records;\"",
+    "/4": "-------------------------------------------------------------------->",
+    "db:migrate:prod": "wrangler d1 migrations apply demo --remote",
+    "db:inspect:prod": "wrangler d1 execute demo --remote --command=\"SELECT name FROM sqlite_master WHERE type='table';\"",
+    "/5": "-------------------------------------------------------------------->",
+    "db:studio": "drizzle-kit studio",
+    "db:studio:local": "drizzle-kit studio --config=drizzle.local.config.ts",
+    "/6": "-------------------------------------------------------------------->",
+    "db:reset:local": "rm ./.wrangler/state/v3/d1/miniflare-D1DatabaseObject/* && rm -rf ./src/db/migrations",
+    "/7": "-------------------------------------------------------------------->"
+  },
+  "lint-staged": {
+    "*.{ts,js,mjs}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^1.1.2",
+    "@libsql/client": "^0.15.15",
+    "@scalar/hono-api-reference": "^0.9.19",
+    "better-sqlite3": "^12.4.1",
+    "catch-wrap": "^1.0.1",
+    "drizzle-orm": "^0.44.5",
+    "drizzle-zod": "^0.8.3",
+    "hono": "^4.9.7",
+    "hono-pino": "^0.10.2",
+    "http-stash": "^1.0.0",
+    "pino": "^9.10.0",
+    "zod": "^4.1.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.4.0",
+    "drizzle-kit": "^0.31.4",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-perfectionist": "^4.15.0",
+    "eslint-plugin-unicorn": "^61.0.2",
+    "husky": "^9.1.7",
+    "jiti": "^2.6.0",
+    "knip": "^5.45.2",
+    "lint-staged": "^16.2.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.44.0",
+    "wrangler": "^4.38.0"
+  }
+}

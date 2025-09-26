@@ -1,5 +1,7 @@
 # Hono OpenAPI Template
 
+![Hono OpenAPI Template](./screenshot.png)
+
 Type-safe and production-ready Cloudflare Workers boilerplate with Hono framework, Zod validation, Drizzle ORM, D1 database, and OpenAPI docs.
 
 ## Features

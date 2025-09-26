@@ -13,7 +13,7 @@ export function registerScalarUI(app: AppOpenApi) {
     Scalar({
       url: OPENAPI_CONFIG.specPath,
       layout: "classic",
-      theme: "kepler",
+      theme: "saturn",
       defaultHttpClient: {
         targetKey: "js",
         clientKey: "fetch",

